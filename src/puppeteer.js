@@ -89,7 +89,11 @@ let run = async function () {
                 // }
 
                 // Close post
-                await page.click(cnf.selectors.post_close_button).catch(() => console.log(':::> Error closing post'));
+                await page.click(cnf.selectors.post_close_button)
+                .catch(() => {
+                    console.log(':::> Error closing post')
+                    return ':::> Error closing post'
+                })
             }
         }
 
