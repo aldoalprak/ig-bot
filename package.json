@@ -9,6 +9,7 @@
   "author": "Nicolas Lierman",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^7.0.0",
     "pouchdb": "^7.0.0",
     "puppeteer": "^1.5.0",
     "shuffle-array": "^1.0.1"

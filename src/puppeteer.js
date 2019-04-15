@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const shuffle = require('shuffle-array');
 
 let ops = require('../src/pouchDB');
-let cnf = require('../config/config.json');
+let cnf = require('../config/config.js');
 
 let run = async function () {
 
