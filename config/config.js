@@ -41,7 +41,7 @@ module.exports =
     "follow_ratio": 0.25,
     "do_unfollows": true,
     "unfollow_after_days": 2,
-    "headless": false
+    "headless": true
   },
   "selectors": {
     "home_to_login_button": ".izU2O a",
