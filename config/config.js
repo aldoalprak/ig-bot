@@ -2,8 +2,8 @@ require('dotenv').config()
 
 module.exports = 
 {
-  "username": process.env.USERNAME,
-  "password": process.env.PASSWORD,
+  "username": "",
+  "password": "",
   "hashtags": [
     "minifigure",
     "lego", 
@@ -36,12 +36,12 @@ module.exports =
     "toyslagram"
   ],
   "settings": {
-    "run_every_x_hours": 3,
+    "run_every_x_hours": 12,
     "like_ratio": 0.75,
     "follow_ratio": 0.25,
     "do_unfollows": true,
     "unfollow_after_days": 2,
-    "headless": true
+    "headless": false
   },
   "selectors": {
     "home_to_login_button": ".izU2O a",
