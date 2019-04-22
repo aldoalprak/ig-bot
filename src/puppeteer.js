@@ -45,8 +45,6 @@ let run = async function () {
     
                     //Try to select post, wait, if successful continue
                     let br = false;
-                    // #react-root > section > main > article > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > a > div.qn-0x > ul
-                    // #react-root > section > main > article > div:nth-child(3) > div > div:nth-child(1) > div:nth-child(2) > a > div.qn-0x > ul
                     await page.click('section > main > article > div:nth-child(3) > div > div:nth-child(' + r + ') > div:nth-child(' + c + ') > a').catch(() => {
                         console.log('msk catch==');
                         br = true;
